@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "debug": "nodemon index.js"
+    "start": "node index.cjs",
+    "debug": "nodemon index.cjs"
   },
   "dependencies": {
     "dotenv": "^17.3.1"

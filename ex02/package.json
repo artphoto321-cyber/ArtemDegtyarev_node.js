@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "debug": "nodemon index.js"
+    "start": "node index.mjs",
+    "debug": "nodemon index.mjs"
   },
   "dependencies": {
     "dotenv": "^17.3.1"
